@@ -14,14 +14,15 @@
   <script>
     if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
   </script>
-  <title>GirlsGoIT</title>
+  <title>Contact</title>
   <meta name="description" content="We are a community program empowering girls in IT">
 
 </head>
 
 
-<body>
 
+<body>
+  
 <!-- header -->
   <header class="f-header position-relative js-f-header">
       <div class="f-header__mobile-content container max-width-lg margin-top-md">
@@ -67,63 +68,74 @@
       </div>
 </header>
 
-
-<section class="padding-y-lg">
-  <div class="container max-width-adaptive-lg">
-    <div class="text-component">
-      <h1 class="text-xxxl">IERI ELEVĂ, AZI INGINERĂ</h1>
-      <p class="max-width-sm">Campania este o inițiativă a GirlsGoIT, program care a inițiat 623 fete în Dezvoltare Software, Inginerie și Electronică în 17 regiuni din Moldova.</p>
+<!-- contact -->
+  <section class="padding-y-lg contact-v3">
+  <div class="container max-width-xs margin-bottom-lg">
+    <div class="text-component text-center">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus eos impedit nesciunt voluptates magni vero itaque.</p>
     </div>
   </div>
-</section>
 
-<!-- Blog -->
-
-<section>
-  <div class="article">
-    <div class="container max-width-adaptive-lg position-relative">
-      
-        <div class="grid gap-lg justify-between align-middle">
-          <div class="col-4@md margin-y-md">
-
-            <a href="alina-ieri-eleva.html" class="margin-bottom-md">
-              <figure class="media-wrapper media-wrapper--4:3">
-                <img src="assets/img/alina-ciobanu.jpg" alt="Alina Ciobanu" class="radius-sm">
-              </figure>
-            </a>
-
-            <div class="text-component">
-              <h2 class="color-primary"><a href="alina-ieri-eleva.html" class="text-bg-fx text-bg-fx--underline-bold">Alina: IERI ELEVĂ, AZI INGINERĂ</a></h2>
-            </div>
+  <div class="container max-width-adaptive-md">
+    <div class="grid gap-lg">
+      <div class="col-6@md">
+        <dl class="details-list-v2 ">
+          <div class="details-list-v2__item">
+            <dt class="details-list-v2__dt">Address</dt>
+            <dd class="details-list-v2__dd">
+              86  Whitby Road <br>IP20 6JA <br>London, UK
+            </dd>
           </div>
 
-          <div class="col-4@md margin-y-md">
-            
-            <div class="text-component">
-              <h2 class="color-primary"><a href="alina-ieri-eleva.html" class="text-bg-fx text-bg-fx--underline-bold">Alina: IERI ELEVĂ, AZI INGINERĂ</a></h2>
-      
-            </div>
-            
-
+          <div class="details-list-v2__item">
+            <dt class="details-list-v2__dt">Email</dt>
+            <dd class="details-list-v2__dd">
+              <a href='mailto:girlsgoit@tekedu.org'>girlsgoit@tekedu.org</a>
+            </dd>
           </div>
 
-          <div class="col-4@md margin-y-md">
-            
-            <div class="text-component">
-              <h2 class="color-primary"><a href="alina-ieri-eleva.html" class="text-bg-fx text-bg-fx--underline-bold">Alina: IERI ELEVĂ, AZI INGINERĂ</a></h2>
-
-            </div>
-            
-
+          <div class="details-list-v2__item">
+            <dt class="details-list-v2__dt">Phone</dt>
+            <dd class="details-list-v2__dd">
+              <a href='tel:+44 7656 6455'>+44 7656 6455</a> <br><small class='color-contrast-medium'>Mon - Fri, 9AM - 5PM</small>
+            </dd>
           </div>
-        </div>
+        </dl>
+      </div>
 
-
+      <div class="col-6@md">
+        <form>
+          <div class="margin-bottom-sm">
+            <label class="form-label margin-bottom-xxs" for="contactName">Name</label>
+            <input class="form-control width-100%" type="text" name="contactName" id="contactName" required>
+          </div>
       
+          <div class="margin-bottom-sm">
+            <label class="form-label margin-bottom-xxs" for="contactEmail">Email</label>
+            <input class="form-control width-100%" type="email" name="contactEmail" id="contactEmail">
+          </div>
+      
+          <div class="margin-bottom-sm">
+            <label class="form-label margin-bottom-xxs" for="contactMessage">Message</label>
+            <textarea class="form-control width-100%" rows="9" name="contactMessage" id="contactMessage"></textarea>
+          </div>
+        
+          <div class="text-right">
+            <button class="btn btn--primary">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-</section>
 
+  <div role="application" class="google-maps google-maps--ratio-3:1 margin-top-lg js-google-maps" data-coordinates="51.5658015,-0.40339"><!-- Google Map --></div>
+</section>
+<!-- 
+  ⚠️ Make sure to include the Google Maps script right before your page body closing tag
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initGoogleMap"></script> 
+  Replace 'YOUR_API_KEY' with your google maps API key
+-->
 
 <footer class="main-footer padding-y-lg margin-top-xl bg-contrast-lower">
   <div class="container max-width-lg">
@@ -283,7 +295,6 @@
     </div>
   </div>
 </footer>
-
 <script src="assets/js/scripts.js"></script>
 <script src="assets/js/util.js"></script>
 <script>
