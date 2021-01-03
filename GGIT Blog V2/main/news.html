@@ -70,7 +70,7 @@
 
 
 <section class="padding-y-lg position-relative z-index-1">
-  <div class="container max-width-adaptive-lg">
+  <div class="container max-width-lg">
     <div class="grid gap-md items-center">
       <div class="col-6@md order-2@md">
         <div class="text-component">
@@ -98,87 +98,81 @@
 
 <!-- Blog -->
 
-      <section class="padding-y-lg">
-        <div class="article ">
-          <div class="container max-width-adaptive-lg position-relative">
-            <div class="padding-md bg-contrast-lower radius-sm ">
-              <div class="filter-nav filter-nav--expanded js-filter-nav margin-y-lg">
-      <button class="reset btn btn--subtle is-hidden js-filter-nav__control" aria-label="Select a filter option" aria-controls="filter-nav">
-        <span class="js-filter-nav__placeholder" aria-hidden="true">All</span>
+  <section class="padding-y-lg bg-contrast-lower">
+    <div class="article">
+      <div class="container max-width-lg position-relative">
+        <div class="filter-nav filter-nav--expanded js-filter-nav margin-bottom-lg">
+          <button class="reset btn btn--subtle is-hidden js-filter-nav__control" aria-label="Select a filter option" aria-controls="filter-nav">
+            <span class="js-filter-nav__placeholder" aria-hidden="true">All</span>
+              <svg class="icon icon--xxs margin-left-xxs" aria-hidden="true" viewBox="0 0 12 12"><polyline points="0.5 3.5 6 9.5 11.5 3.5" fill="none" stroke-width="1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
+                </button>
 
-        <svg class="icon icon--xxs margin-left-xxs" aria-hidden="true" viewBox="0 0 12 12"><polyline points="0.5 3.5 6 9.5 11.5 3.5" fill="none" stroke-width="1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
-      </button>
-
-      <div class="filter-nav__wrapper js-filter-nav__wrapper" id="filter-nav">
-        <nav class="filter-nav__nav justify-center js-filter-nav__nav">
-          <ul class="filter-nav__list js-filter-nav__list" aria-controls="product-gallery">
-            <li class="filter-nav__item">
-              <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" aria-current="true" data-filter="*">All</button>
-            </li>
-            <li class="filter-nav__item">
-              <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="article">Article</button>
-            </li>
-            <li class="filter-nav__item">
-              <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="podcast">Podcast</button>
-            </li>
-          
-            <li class="filter-nav__item">
-              <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="event">Event</button>
-            </li>
-          
-            <li class="filter-nav__item">
-              <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="workshop">Workshop</button>
-            </li>
-            <li class="filter-nav__item">
-              <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="edutolk">Edu Tolk</button>
-            </li>
-          <li class="filter-nav__marker js-filter-nav__marker" aria-hidden="true"></li>
-          </ul>
-
-          <button class="reset filter-nav__close-btn is-hidden js-filter-nav__close-btn js-tab-focus" aria-label="Close navigation">
-            <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><g stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line><line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line></g></svg>
-          </button>
-        </nav>
-      </div>
-    </div>
-
-            <div class="grid gap-lg">
-
-              <article class="story col-4@md">
-                <a href="post.html" class="story__img">
-                  <figure class="media-wrapper media-wrapper--4:3">
-                    <img src="assets/img/support-girlsgoit.jpg" alt="GGIT summer camp">
-                  </figure>
-                </a>
-
-                <div class="story__content">
-                  <div class="margin-bottom-xs">
-                    <a href="podcast.html" class="story__category">
-                      <svg class="icon margin-right-xxxs" aria-hidden="true" viewBox="0 0 16 16"><g stroke-width='1' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round'><rect x='0.5' y='1.5' width='15' height='13' rx='1' ry='1'></rect><polygon points='5.5 4.5 11 8 5.5 11.5 5.5 4.5'></polygon></g></svg>
-                      <i>Podcast</i>
-                    </a>
-                  </div>
-          
-                  <div class="text-component">
-                    <h2 class="story__title"><a href="post.html">Opportunities for you to start your career in IT</a></h2>
+                <div class="filter-nav__wrapper js-filter-nav__wrapper" id="filter-nav">
+                  <nav class="filter-nav__nav justify-center js-filter-nav__nav">
+                    <ul class="filter-nav__list js-filter-nav__list" aria-controls="product-gallery">
+                      <li class="filter-nav__item">
+                        <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" aria-current="true" data-filter="*">All</button>
+                      </li>
+                      <li class="filter-nav__item">
+                        <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="article">Article</button>
+                      </li>
+                      <li class="filter-nav__item">
+                        <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="podcast">Podcast</button>
+                      </li>
                     
-                  </div>
-          
-                  <div class="story__author margin-top-sm">
-                    <a href="post.html" class="block">
-                      <img src="assets/img/author/mihaela-iurascu.jpg" alt="Opportunities for you to start your career in IT - Mihaela Iurascu">
-                    </a>
+                      <li class="filter-nav__item">
+                        <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="event">Event</button>
+                      </li>
+                    
+                      <li class="filter-nav__item">
+                        <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="workshop">Workshop</button>
+                      </li>
+                      <li class="filter-nav__item">
+                        <button class="reset filter-nav__btn js-filter-nav__btn js-tab-focus" data-filter="edutolk">Video</button>
+                      </li>
+                    <li class="filter-nav__marker js-filter-nav__marker" aria-hidden="true"></li>
+                    </ul>
 
-                    <div class="line-height-xs">
-                      <address class="story__author-name"><a href="#0" rel="author">Mihaela Iurascu</a></address>
-                      <p class="story__meta"><time>May 12</time> &mdash; 5 min read</p>
-                    </div>
-                  </div>
+                    <button class="reset filter-nav__close-btn is-hidden js-filter-nav__close-btn js-tab-focus" aria-label="Close navigation">
+                      <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><g stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line><line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line></g></svg>
+                    </button>
+                  </nav>
                 </div>
-              </article>
+        </div>
+
+        <div class="grid gap-lg">
+          <article class="story col-4@md">
+            <a href="video-post.html" class="story__img">
+              <figure class="media-wrapper media-wrapper--4:3">
+                <img src="assets/img/support-girlsgoit.jpg" alt="GGIT summer camp"></figure>
+            </a>
+
+            <div class="story__content">
+              <div class="margin-bottom-xs">
+                  <a href="podcast.html" class="story__category">
+                    <svg class="icon margin-right-xxxs" aria-hidden="true" viewBox="0 0 16 16"><g stroke-width='1' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round'><rect x='0.5' y='1.5' width='15' height='13' rx='1' ry='1'></rect><polygon points='5.5 4.5 11 8 5.5 11.5 5.5 4.5'></polygon></g></svg>
+                      <i>Podcast</i>
+                  </a>
+              </div>
+              
+              <div class="text-component">
+                <h2 class="story__title"><a href="post.html">Opportunities for you to start your career in IT</a></h2> 
+              </div>
+              
+              <div class="story__author margin-top-sm">
+                <a href="video-post.html" class="block">
+                  <img src="assets/img/author/mihaela-iurascu.jpg" alt="Opportunities for you to start your career in IT - Mihaela Iurascu">
+                </a>
+                <div class="line-height-xs">
+                  <address class="story__author-name"><a href="#0" rel="author">Mihaela Iurascu</a></address>
+                    <p class="story__meta"><time>May 12</time> &mdash; 5 min read</p>
+                </div>
+              </div>
+            </div>
+          </article>
 
               <article class="story col-4@md">
-                <a href="event.html" class="story__img">
+                <a href="article-post.html" class="story__img">
                   <figure class="media-wrapper media-wrapper--4:3">
                     <img src="assets/img/crunchyroll.JPG" alt="Crunchyroll">
                   </figure>
@@ -198,7 +192,7 @@
                   </div>
           
                   <div class="story__author margin-top-sm">
-                    <a href="post.html" class="block">
+                    <a href="article-post.html" class="block">
                       <img src="assets/img/author/victor-timotin.jpg" alt="We celebrate a new milestone and I'm so proud to be part of Crunchyroll team - Victor Timotin">
                     </a>
 
@@ -211,7 +205,7 @@
               </article>
 
               <article class="story col-4@md">
-                <a href="#0" class="story__img">
+                <a href="article-post.html" class="story__img">
                   <figure class="media-wrapper media-wrapper--4:3">
                     <img src="assets/img/apply-for-girlsgoit.jpg" alt="Apply GirlsGoIT digital summer camp program">
                   </figure>
@@ -221,12 +215,12 @@
                   <div class="margin-bottom-xs">
                     <a href="edutolk.html" class="story__category">
                       <svg class="icon margin-right-xxxs" aria-hidden="true" viewBox="0 0 16 16"><g stroke-width='1' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round'><rect x='0.5' y='1.5' width='15' height='13' rx='1' ry='1'></rect><polygon points='5.5 4.5 11 8 5.5 11.5 5.5 4.5'></polygon></g></svg>
-                      <i>EduTolk</i>
+                      <i>Workshop</i>
                     </a>
                   </div>
           
                   <div class="text-component">
-                    <h2 class="story__title"><a href="post.html">Apply for GirlsGoIT digital summer camp program</a></h2>
+                    <h2 class="story__title"><a href="article-post.html">Apply for GirlsGoIT digital summer camp program</a></h2>
                     
                   </div>
           
@@ -244,7 +238,7 @@
               </article>
 
               <article class="story col-4@md">
-                <a href="video.html" class="story__img">
+                <a href="video-post.html" class="story__img">
                   <figure class="media-wrapper media-wrapper--4:3">
                     <img src="assets/img/support-girlsgoit.jpg" alt="GGIT summer camp">
                   </figure>
@@ -259,7 +253,7 @@
                   </div>
           
                   <div class="text-component">
-                    <h2 class="story__title"><a href="post.html">Opportunities for you to start your career in IT</a></h2>
+                    <h2 class="story__title"><a href="video-post.html">Opportunities for you to start your career in IT</a></h2>
                     
                   </div>
           
@@ -277,7 +271,7 @@
               </article>
 
               <article class="story col-4@md">
-                <a href="post.html" class="story__img">
+                <a href="video-post.html" class="story__img">
                   <figure class="media-wrapper media-wrapper--4:3">
                     <img src="assets/img/crunchyroll.JPG" alt="Crunchyroll">
                   </figure>
@@ -292,7 +286,7 @@
                   </div>
           
                   <div class="text-component">
-                    <h2 class="story__title"><a href="post.html">We celebrate a new milestone and I'm so proud to be part of Crunchyroll team</a></h2>
+                    <h2 class="story__title"><a href="video-post.html">We celebrate a new milestone and I'm so proud to be part of Crunchyroll team</a></h2>
                     
                   </div>
           
@@ -310,7 +304,7 @@
               </article>
 
               <article class="story col-4@md">
-                <a href="#0" class="story__img">
+                <a href="article-post.html" class="story__img">
                   <figure class="media-wrapper media-wrapper--4:3">
                     <img src="assets/img/apply-for-girlsgoit.jpg" alt="Apply GirlsGoIT digital summer camp program">
                   </figure>
@@ -320,12 +314,12 @@
                   <div class="margin-bottom-xs">
                     <a href="article.html" class="story__category">
                       <svg class="icon margin-right-xxxs" aria-hidden="true" viewBox="0 0 16 16"><g stroke-width='1' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'><circle cx='8' cy='7' r='1.5'></circle><path d='M12.121,14.263a7.5,7.5,0,1,0-8.242,0'></path><path d='M12.377,11.32a5.5,5.5,0,1,0-8.754,0'></path><path d='M6.605,10.5H9.4a1,1,0,0,1,1,1.1L10,15.5H6l-.39-3.9A1,1,0,0,1,6.605,10.5Z'></path></g></svg>
-                      <i>Article</i>
+                      <i>Event</i>
                     </a>
                   </div>
           
                   <div class="text-component">
-                    <h2 class="story__title"><a href="post.html">Apply for GirlsGoIT digital summer camp program</a></h2>
+                    <h2 class="story__title"><a href="article-post.html">Apply for GirlsGoIT digital summer camp program</a></h2>
                     
                   </div>
           
@@ -342,7 +336,7 @@
                 </div>
               </article>
               
-              <nav class="pagination margin-top-md " aria-label="Pagination">
+              <nav class="pagination margin-y-xl " aria-label="Pagination">
                 <ol class="pagination__list flex flex-wrap gap-xxxs justify-center">
                 <li>
                   <a href="#0" class="pagination__item pagination__item--disabled" aria-label="Go to previous page">
@@ -390,6 +384,7 @@
         </div>
         </div>
       </section>
+
 
 
 
